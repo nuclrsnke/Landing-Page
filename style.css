@@ -4,7 +4,6 @@ body {
 }
 
 .firstsection {
-    margin: 0%;
     padding: 1% 15% 1% 15%;
     display: flex;
     flex-direction: column;
@@ -12,12 +11,18 @@ body {
     color: #F9FAF8;
 }
 
+.logo {
+    font-weight: bold;
+}
+
 .links {
+    flex-grow: 2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header {
+    gap: 55%;
     justify-content: space-between;
     display: flex;
 }
@@ -28,12 +33,9 @@ a:active, a:hover, a:visited, a:link {
 }
 
 .text {
-    margin: 5% 0%;
+    margin: 10% 0%;
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
-    flex-grow: 0;
-    padding: 0%;
 }
 
 .statementtext {
@@ -43,9 +45,13 @@ a:active, a:hover, a:visited, a:link {
 
 .maintext {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
-    align-items: center;
+    margin: 0px;
+}
+
+.websitetext {
+    padding: 0px;
     margin: 0px;
 }
 
@@ -60,11 +66,14 @@ a:active, a:hover, a:visited, a:link {
 }
 
 .image {
+    margin: 0% 0% 0% 7%;
     flex-grow: 2;
+    width: 75%;
     display: flex;
     align-items: center;
-    padding: 5% 10%;
-    background-color: grey;
+    justify-content: center;
+    padding: 6% 2%;
+    background-color: gray;
 }
 
 .signup {
@@ -74,11 +83,12 @@ a:active, a:hover, a:visited, a:link {
     border-style: none;
     color: white;
     padding: 5px 15px 5px 15px;
+    margin: 10px 0px;
 }
 
 .information_header {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #1F2937;
 }
 
