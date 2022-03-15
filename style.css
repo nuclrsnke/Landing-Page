@@ -86,7 +86,14 @@ a:active, a:hover, a:visited, a:link {
     margin: 10px 0px;
 }
 
+.second_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .information_header {
+    align-self: center;
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
@@ -94,11 +101,47 @@ a:active, a:hover, a:visited, a:link {
 
 .quote_section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote_text {
+    width: 55%;
     font-size: 36px;
     font-style: italic;
     font-weight: light;
     color: #1F2937;
+}
+
+.thor {
+    width: 55%;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+figure {
+    aspect-ratio: 1 / 1;
+    height: 40%;
+    margin: 1%;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+    border:#3882F6 solid;
+  }
+
+figcaption {
+    width: 80%;
+    height: 80%;
+    color:#1F2937;
+    text-align: center;
+}
+
+.illustrations {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
 }
