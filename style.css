@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto';
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .firstsection {
@@ -9,10 +10,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-}
-
-.logo {
-    font-weight: bold;
 }
 
 .links {
@@ -52,17 +49,8 @@ a:active, a:hover, a:visited, a:link {
 
 .websitetext {
     padding: 0px;
-    margin: 0px;
-}
-
-.header_secondary {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.header_logo {
-    font-size: 24px;
-    color: #f9faf8;
+    margin: px;
+    opacity: 80%;
 }
 
 .image {
@@ -82,8 +70,8 @@ a:active, a:hover, a:visited, a:link {
     border-radius: 5px;
     border-style: none;
     color: white;
-    padding: 5px 15px 5px 15px;
-    margin: 10px 0px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px;
 }
 
 .second_section {
@@ -107,17 +95,22 @@ a:active, a:hover, a:visited, a:link {
 }
 
 .quote_text {
-    width: 55%;
+    width: 50%;
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937;
+    margin: 5% 5% 0% 5%;
 }
 
 .thor {
+    text-align: end;
+    font-size: 1.25em;
     width: 55%;
     color: #1F2937;
     font-weight: bold;
+    margin: 0px;
+    margin: 0% 5% 5% 0%;
 }
 
 figure {
@@ -136,6 +129,7 @@ img {
 figcaption {
     width: 80%;
     height: 80%;
+    font-weight: 100;
     color:#1F2937;
     text-align: center;
 }
@@ -144,4 +138,23 @@ figcaption {
     width: 55%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.call {
+    background-color: #3882F6;
+    margin: 7em 15em;
+    padding: 3em 3em 3em 3em;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.disclaimer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
 }
